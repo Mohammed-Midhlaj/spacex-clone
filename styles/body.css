@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    color: white;
+    font-family: Familjen Grotesk, sans-serif;
+}
+
+.content {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 500px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+
+}
+
+.icons {
+    height: 24px;
+    filter: invert(100%);
+}
+
+.buttuns {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    padding: 15px 45px;
+    border: 2px solid white;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttuns:hover {
+    background-color: white;
+    color: black;
+}
+
+#section2 {
+    background-image: url(../pictures/Europa_outside39mound_DSC_4507_desktop_22ea568a76.jpg);
+}
+
+
+#section4 {
+    background-image: url(../pictures/Star10_10_101524_DSC_3505_desktop_4581384252.jpg);
+}
+
+#section3 {
+    background-image: url(../pictures/Starlink_G9_7_Figueroa_Mtn_0923_Desktop_c7cc9220d4.jpg);
+}
+
+#section5 {
+    background-image: url(../pictures/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+}
+
+#section6 {
+    background-image: url(../pictures/make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+}
+
+.recent {
+    font-size: 20px;
+}
+
+.big-txt {
+    font-size: 40px;
+    font-weight: 700px;
+    display: grid;
+    grid-template-columns: 350px;
+}
+
+
+
+
